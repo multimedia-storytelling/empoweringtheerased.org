@@ -1351,7 +1351,9 @@ figcaption {
   max-width: 100%;
   margin-top: 75px;
   padding-top: 0px;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .section-6 {
@@ -2587,6 +2589,7 @@ figcaption {
 }
 
 .div-block-6 {
+  width: 85%;
   max-width: 100%;
 }
 
@@ -2686,6 +2689,7 @@ figcaption {
 .container-19 {
   max-width: 85%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .container-20 {
@@ -2788,7 +2792,7 @@ figcaption {
 
 .container-25 {
   width: 100%;
-  max-width: 940px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -2816,7 +2820,7 @@ figcaption {
 
 .testimonial-content-3 {
   display: flex;
-  max-width: 460px;
+  max-width: 100%;
   margin-right: 40px;
   flex-direction: column;
   justify-content: flex-start;
@@ -2852,6 +2856,7 @@ figcaption {
 
 .testimonial-author-name-3 {
   font-family: Lato, sans-serif;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -2886,6 +2891,7 @@ figcaption {
 
 .text-block-14 {
   font-family: Lato, sans-serif;
+  font-size: 1px;
 }
 
 .div-block-13 {
@@ -3129,7 +3135,7 @@ figcaption {
 
 .container-30 {
   max-width: 100%;
-  border-top: 1px solid #881313;
+  border: 10px solid #881313;
 }
 
 .paragraph-23 {
@@ -3486,7 +3492,7 @@ figcaption {
 }
 
 .container-37 {
-  max-height: 600%;
+  max-height: 100%;
   max-width: 100%;
   border-bottom: 10px solid #881313;
 }
@@ -4242,6 +4248,8 @@ figcaption {
 }
 
 .section-10 {
+  margin-top: 50px;
+  margin-bottom: 50px;
   border: 0px none #000;
 }
 
@@ -4315,9 +4323,10 @@ figcaption {
 
 .image-126 {
   position: relative;
+  max-width: 100%;
   opacity: 0.38;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .paragraph-32 {
@@ -4326,6 +4335,7 @@ figcaption {
   bottom: 158px;
   display: flex;
   margin-bottom: -32px;
+  padding-left: 0px;
   justify-content: center;
   font-family: 'Playfair Display', sans-serif;
   color: #881313;
@@ -4334,18 +4344,23 @@ figcaption {
 }
 
 .div-block-41 {
+  max-width: 100%;
   border-bottom: 18px solid #881313;
 }
 
 .image-127 {
   position: relative;
+  max-height: 100%;
+  max-width: 100%;
   opacity: 0.5;
   font-family: Montserrat, sans-serif;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .text-block-19 {
   position: absolute;
-  padding: 155px 407px 0px 151px;
+  padding: 202px 407px 0px 151px;
   font-family: 'Playfair Display', sans-serif;
   color: #881313;
   font-size: 28px;
@@ -4360,9 +4375,9 @@ figcaption {
 
 .paragraph-33 {
   position: absolute;
-  margin-top: 59px;
-  padding-right: 127px;
-  padding-left: 99px;
+  margin-top: 75px;
+  padding-right: 189px;
+  padding-left: 130px;
   font-family: 'Playfair Display', sans-serif;
   color: #000;
   font-size: 20px;
@@ -4374,6 +4389,7 @@ figcaption {
   position: relative;
   margin-top: -10px;
   margin-bottom: -21px;
+  padding-right: 0px;
   opacity: 0.41;
 }
 
@@ -4449,6 +4465,223 @@ figcaption {
 
 .image-131 {
   padding-top: 60px;
+}
+
+.image-132 {
+  text-align: right;
+}
+
+.image-133 {
+  position: relative;
+  opacity: 0.56;
+}
+
+.paragraph-36 {
+  position: absolute;
+  left: 96px;
+  top: 61.6953px;
+  right: 160px;
+  bottom: 0px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.paragraph-37 {
+  position: absolute;
+  left: 84px;
+  top: 56.023px;
+  right: 152px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.image-134 {
+  position: relative;
+  left: -20px;
+  opacity: 0.61;
+}
+
+.paragraph-38 {
+  max-width: 100%;
+  float: none;
+  text-align: left;
+}
+
+.div-block-44 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-47 {
+  max-width: 85%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.haitian-revolution {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff0f0;
+}
+
+.heading-23 {
+  font-family: 'PT Serif', serif;
+  color: #881313;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-45 {
+  display: flex;
+  max-height: 400px;
+  max-width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-48 {
+  display: flex;
+  max-width: 85%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-49 {
+  max-width: 85%;
+  margin-top: 50px;
+}
+
+.image-135 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.container-50 {
+  max-width: 85%;
+  margin-top: 50px;
+}
+
+.container-51 {
+  max-width: 85%;
+  margin-top: 50px;
+}
+
+.haitianrevolution4 {
+  position: relative;
+  padding: 80px 30px;
+  border-bottom: 1px solid #e4ebf3;
+}
+
+.container-52 {
+  width: 100%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.testimonial-wrapper-four-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-left-3 {
+  width: 50%;
+  margin-right: 64px;
+}
+
+.testimonial-image-four-3 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testimonial-right-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.heading-small-3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.testimonial-text-four-3 {
+  margin-bottom: 32px;
+}
+
+.testimonial-author-name-three-4 {
+  margin-bottom: 10px;
+}
+
+.image-136 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0.3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.div-block-46 {
+  display: flex;
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-53 {
+  max-width: 100%;
+}
+
+.heading-24 {
+  position: absolute;
+  font-family: 'Playfair Display', sans-serif;
+  color: #881313;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-block-20 {
+  text-align: center;
+}
+
+.div-block-47 {
+  margin-top: 10px;
+}
+
+.haitianrevolution2 {
+  padding-bottom: 50px;
+  border-top: 1px solid #fff0f0;
+  border-bottom: 1px solid #fff0f0;
+}
+
+.div-block-48 {
+  text-align: center;
+}
+
+.div-block-49 {
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 991px) {
@@ -4815,6 +5048,19 @@ figcaption {
   .team-slide-wrapper {
     width: 47%;
     margin-right: 6%;
+  }
+
+  .container-52 {
+    max-width: 728px;
+  }
+
+  .testimonial-left-3 {
+    width: 40%;
+    margin-right: 40px;
+  }
+
+  .div-block-47 {
+    margin-top: 20px;
   }
 }
 
@@ -5221,6 +5467,29 @@ figcaption {
   .team-slider {
     padding: 60px 15px;
   }
+
+  .haitianrevolution4 {
+    padding: 60px 15px;
+  }
+
+  .testimonial-wrapper-four-3 {
+    flex-direction: column;
+  }
+
+  .testimonial-left-3 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-image-four-3 {
+    height: auto;
+  }
+
+  .heading-small-3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5504,6 +5773,15 @@ figcaption {
   .team-slide-wrapper {
     width: 100%;
     margin-right: 0%;
+  }
+
+  .container-52 {
+    max-width: none;
+  }
+
+  .heading-small-3 {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
