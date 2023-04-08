@@ -410,15 +410,15 @@ figcaption {
 }
 
 .navigation-item {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding: 9px 20px;
   opacity: 0.6;
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #881313;
   font-size: 18px;
   line-height: 20px;
   font-weight: 800;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -2591,6 +2591,8 @@ figcaption {
 .div-block-6 {
   width: 85%;
   max-width: 100%;
+  -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .container-18 {
@@ -2855,7 +2857,7 @@ figcaption {
 }
 
 .testimonial-author-name-3 {
-  font-family: Lato, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
@@ -3277,7 +3279,8 @@ figcaption {
 
 .testimonial-content-5 {
   display: flex;
-  max-width: 460px;
+  width: 100%;
+  max-width: 100%;
   margin-right: 40px;
   flex-direction: column;
   align-items: flex-start;
@@ -3365,6 +3368,7 @@ figcaption {
 }
 
 .testimonial-author-name-6 {
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -3620,6 +3624,8 @@ figcaption {
 }
 
 .testimonial-author-name-7 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -3711,6 +3717,7 @@ figcaption {
 
 .container-40 {
   max-width: 100%;
+  border-bottom: 1px solid #881313;
 }
 
 .image-38 {
@@ -3730,7 +3737,7 @@ figcaption {
   position: absolute;
   font-family: 'Playfair Display', sans-serif;
   color: #881313;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 700;
   text-align: center;
 }
@@ -4508,6 +4515,8 @@ figcaption {
 .paragraph-38 {
   max-width: 100%;
   float: none;
+  font-size: 20px;
+  line-height: 30px;
   text-align: left;
 }
 
@@ -4535,7 +4544,7 @@ figcaption {
 .heading-23 {
   font-family: 'PT Serif', serif;
   color: #881313;
-  font-size: 46px;
+  font-size: 60px;
   font-weight: 700;
   text-align: center;
 }
@@ -4621,6 +4630,8 @@ figcaption {
 
 .testimonial-text-four-3 {
   margin-bottom: 32px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .testimonial-author-name-three-4 {
@@ -4633,6 +4644,7 @@ figcaption {
   height: 100%;
   max-height: 100%;
   max-width: 100%;
+  border-bottom: 1px none #000;
   opacity: 0.3;
   -o-object-fit: cover;
      object-fit: cover;
@@ -4641,8 +4653,8 @@ figcaption {
 .div-block-46 {
   display: flex;
   width: auto;
-  height: 500px;
-  max-height: 500px;
+  height: 600px;
+  max-height: 600px;
   max-width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -4651,6 +4663,7 @@ figcaption {
 
 .container-53 {
   max-width: 100%;
+  border-bottom: 10px solid #881313;
 }
 
 .heading-24 {
@@ -4682,6 +4695,281 @@ figcaption {
 
 .div-block-49 {
   align-self: flex-start;
+}
+
+.paragraph-39 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-40 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-41 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-42 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-43 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-44 {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.container-54 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimonial-image-left-2 {
+  position: relative;
+  padding: 80px 30px;
+  border-bottom: 1px solid #e4ebf3;
+}
+
+.container-55 {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.testimonial-wrapper-four-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.testimonial-left-4 {
+  width: 45%;
+  margin-right: 64px;
+}
+
+.testimonial-image-four-4 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testimonial-right-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  flex: 1;
+}
+
+.heading-small-4 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.testimonial-text-four-4 {
+  margin-right: 20px;
+  margin-bottom: 32px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.testimonial-author-name-three-5 {
+  margin-bottom: 10px;
+}
+
+.heading-25 {
+  font-family: 'Playfair Display', sans-serif;
+  color: #881313;
+  font-weight: 700;
+  text-align: center;
+}
+
+.heading-26 {
+  font-family: 'Playfair Display', sans-serif;
+  color: #881313;
+  font-weight: 700;
+  text-align: center;
+}
+
+.image-137 {
+  position: static;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.heading-27 {
+  font-family: 'Playfair Display', sans-serif;
+  color: #881313;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container-56 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-57 {
+  margin-top: 50px;
+}
+
+.div-block-50 {
+  margin-top: 50px;
+}
+
+.link-block {
+  padding: 20px 9px;
+  font-family: Montserrat, sans-serif;
+  color: #881313;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.section-11 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container-58 {
+  max-width: 100%;
+}
+
+.div-block-51 {
+  display: flex;
+  height: 600px;
+  max-height: 600px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px solid #881313;
+}
+
+.image-138 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+
+.body-6 {
+  background-color: #eee1d4;
+}
+
+.heading-28 {
+  position: absolute;
+  font-family: 'Playfair Display', sans-serif;
+  color: #881313;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.heading-29 {
+  font-family: 'Playfair Display', sans-serif;
+  color: #881313;
+  font-weight: 700;
+  text-align: center;
+}
+
+.paragraph-45 {
+  width: 85%;
+}
+
+.div-block-52 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-139 {
+  width: 100%;
+  height: 100%;
+  border: 10px solid #881313;
+}
+
+.div-block-53 {
+  width: 700px;
+  height: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image-140 {
+  width: 100%;
+  height: 100%;
+  border: 10px solid #881313;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.div-block-54 {
+  width: 900px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-59 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-block-21 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.paragraph-46 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-47 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-48 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-49 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-50 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-51 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.paragraph-52 {
+  display: flex;
+  text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -5061,6 +5349,15 @@ figcaption {
 
   .div-block-47 {
     margin-top: 20px;
+  }
+
+  .container-55 {
+    max-width: 728px;
+  }
+
+  .testimonial-left-4 {
+    width: 40%;
+    margin-right: 40px;
   }
 }
 
@@ -5490,6 +5787,29 @@ figcaption {
     font-size: 28px;
     line-height: 36px;
   }
+
+  .testimonial-image-left-2 {
+    padding: 60px 15px;
+  }
+
+  .testimonial-wrapper-four-4 {
+    flex-direction: column;
+  }
+
+  .testimonial-left-4 {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-image-four-4 {
+    height: auto;
+  }
+
+  .heading-small-4 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5783,6 +6103,15 @@ figcaption {
     font-size: 24px;
     line-height: 32px;
   }
+
+  .container-55 {
+    max-width: none;
+  }
+
+  .heading-small-4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
 
 #w-node-_3cb35772-d009-d6bd-a2a8-20692184cae4-3dab79b1 {
@@ -5949,24 +6278,6 @@ figcaption {
       grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-}
-
-#w-node-a541770c-a99b-97d9-5cb5-94f7b3209c61-b3209c60 {
-  -ms-grid-column-align: center;
-      justify-self: center;
-}
-
-#w-node-a541770c-a99b-97d9-5cb5-94f7b3209c62-b3209c60 {
-  -ms-grid-row-align: center;
-      align-self: center;
-}
-
-#w-node-_9163d4fb-b06f-dc7d-753c-e49870065a9b-b3209c60 {
-  -ms-grid-row-align: start;
-      align-self: start;
-  -ms-grid-column-align: start;
-      justify-self: start;
-  order: 2;
 }
 
 @media screen and (max-width: 991px) {
